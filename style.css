@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#links{
+    border: solid 1px;
+    height: 38px;
+    background-color: navy;
+    line-height: 38px;
+}
+#text1,#text2,#text3,#text4,#text5{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 21px;
+}
+#text1{
+    padding-left: 35px;
+}
+.out1{
+    border: solid 1px;
+    height: 150px;
+    display: flex;
+}
+#in1,#in2{
+    border: solid 1px;
+    height: 150px;
+}
+#in1{
+    width: 150px;
+}
+#in2{
+    width: 1090px;
+    text-align: center;
+    background-color: #f1eaea90;
+}
+#clg{
+    font-size: 56px;
+    color: red;
+}
+#txt1,#txt2{
+font-size: 32px;
+font-weight: bold;
+color: brown;
+}
+#ugc{
+    background-color: brown;
+    height: 25px;
+    color: yellow;
+    font-size: 22px;
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 176px;
+    float: left;
+    background-color: navy;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+}
+ul li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul li ul li{
+    display: none
+}
+ul li:hover ul li{
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+ul li:hover{
+    background-color: orangered;
+}
+.logos{
+    border: solid 1px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#lg1,#lg2,#lg3,#lg4,#lg5{
+    border: solid 1px;
+    height: 200px;
+    width: 180px;
+    border-radius: 50%;
+}
+.obox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 400px;
+}
+#inbox1{
+    width: 600px;
+    background-image: url(bg1.webp);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    0%{
+        background-image: url(bg2.webp);
+    }
+    10%{
+        background-image: url(bg3.webp);
+    }
+    20%{
+        background-image: url(bg4.webp);
+    }
+    30%{
+        background-image: url(bg5.jpg);
+    }
+    40%{
+        background-image: url(bg6.webp);
+    }
+}
+#inbox2,#inbox3{
+    width: 300px;
+    text-align: center;
+}
